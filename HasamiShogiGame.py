@@ -296,3 +296,12 @@ class HasamiShogiGame:
         column_index = int(location[1])
         index = [row_index, column_index]
         return index
+
+
+def main():
+    """Runs if this file is the main file."""
+    HasamiShogiGame()
+
+
+if __name__ == "__main__":
+    main()
